@@ -7,15 +7,19 @@ const NavBar = () => {
     <h1 className="text-3xl md:text-4xl font-bold tracking-wide">VENCE</h1>
 
    
-    <ul className="ml-auto flex gap-8 text-lg font-normal">
-      <li><a href="#" className="hover:text-gray-300">Home</a></li>
-      <li><a href="#" className="hover:text-gray-300">Inspiration</a></li>
-      <li><a href="#" className="hover:text-gray-300">Courses</a></li>
-      <li><a href="#" className="hover:text-gray-300">Blog</a></li>
-    </ul>
-
+    <ul className="ml-auto flex space-x-6 text-[20px] leading-[25px] font-normal text-[#F8F9FA] opacity-50">
+        <li className="hover:opacity-100 cursor-pointer">Home</li>
+        <li className="hover:opacity-100 cursor-pointer">Inspiration</li>
+        <li className="hover:opacity-100 cursor-pointer">Courses</li>
+        <li className="hover:opacity-100 cursor-pointer">Blog</li>
+      </ul>
     
-    <button className="ml-6 text-white bg-gray-800 p-2 rounded-lg">🔍</button>
+      <button
+        className="w-[36px] h-[25px] bg-[#F8F9FA80] opacity-50 hover:opacity-100 text-white text-[12px] font-normal leading-[25px] ml-6 flex items-center justify-center rounded-md"
+        style={{ textDecorationSkipInk: "none", textUnderlinePosition: "from-font" }}
+      >
+        🔍
+      </button>
   </nav>
   );
 };

@@ -5,10 +5,10 @@ const App = () => {
   return (
     <div>
        <Header />
-       <main className="p-8 w-[56.666%] mx-auto">
-        <h1 className="text-2xl font-bold text-center mb-4">The purpose of our lives is to be happy.</h1>
+       <main className="p-8 w-[56.666%] mx-auto justify-start">
+        <h1 className="text-2xl font-bold  mb-4">The purpose of our lives is to be happy.</h1>
 
-        <p className="text-[#6C757D] text-[14px] leading-[25px] font-normal font-[Poppins] ">
+        <p className="text-[#6C757D] text-[14px] leading-[25px] font-normal font-[Poppins]  ">
           Quickly monetize synergistic portals via efficient e-commerce. Phosfluorescently reinvent frictionless
           intellectual capital vis-a-vis an expanded array of niches. Efficiently provide access to interactive scenarios
           vis-a-vis bleeding-edge value. Energistically maximize premium meta-services and multifunctional collaboration

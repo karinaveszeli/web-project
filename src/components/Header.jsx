@@ -3,9 +3,17 @@ import NavBar from "./NavBar";
 
 const Header = () => {
   return (
-    <div className="min-h-screen mb-4 bg-cover bg-center flex 
-    items-center w-full overflow-hidden "
-    style={{backgroundImage: "url('/header_img.png')"}} id='Header'>
+
+    <div
+    className="relative min-h-screen w-full bg-cover bg-center"
+    style={{
+      backgroundImage: "url('/header_img.png')",
+      backgroundSize: "110% ", 
+      backgroundRepeat: "no-repeat", 
+    backgroundPosition: "top", 
+    }}
+    id="Header"
+  >
       
     <NavBar/>
 

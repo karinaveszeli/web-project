@@ -7,7 +7,7 @@ const NavBar = () => {
     <h1 className="text-3xl md:text-4xl font-bold tracking-wide">VENCE</h1>
 
    
-    <ul className="ml-auto flex gap-8 text-lg">
+    <ul className="ml-auto flex gap-8 text-lg font-normal">
       <li><a href="#" className="hover:text-gray-300">Home</a></li>
       <li><a href="#" className="hover:text-gray-300">Inspiration</a></li>
       <li><a href="#" className="hover:text-gray-300">Courses</a></li>

@@ -10,14 +10,23 @@ const App = () => {
     <div>
       <Header />
       <main className="max-w-[2000px] mx-auto px-4 md:px-6">
-
         <div className="max-w-5xl w-full mx-auto p-8">
+
+          <div className="flex items-center text-[#6C757D] text-sm mb-4">
+            <span>29.Jun.2021</span>
+            <div className="w-[15px] h-[1px] bg-[#E5E5E5] mx-2"></div>
+            <span>8 min</span>
+            <div className="w-[15px] h-[1px] bg-[#E5E5E5] mx-2"></div>
+            <span className="font-bold text-[#212529]">By: Peter Roward</span>
+          </div>
+
+
           <blockquote className="text-[#212529] text-[25px] font-bold leading-[40px] my-8">
             The purpose of our lives is to be <br /> happy.
           </blockquote>
 
           <p className="text-[#6C757D] text-[14px] leading-[25px] font-normal font-[Poppins]">
-          Quickly monetize synergistic portals via efficient e-commerce. Phosfluorescently reinvent frictionless
+            Quickly monetize synergistic portals via efficient e-commerce. Phosfluorescently reinvent frictionless
             intellectual capital vis-a-vis an expanded array of niches. Efficiently provide access to interactive scenarios
             vis-a-vis bleeding-edge value. Energistically maximize premium meta-services and multifunctional collaboration
             and idea-sharing. Dramatically unleash front-end value after out-of-the-box opportunities. Energistically streamline magnetic
@@ -29,7 +38,7 @@ const App = () => {
           </p>
 
           <p className="text-[#6C757D] text-[14px] leading-[25px] font-normal font-[Poppins] mt-4">
-          Conveniently engineer robust experiences after performance-based initiatives.Credibly communicate strategic technology whereas turnkey functionalities. Professionally re-engineer magnetic
+            Conveniently engineer robust experiences after performance-based initiatives.Credibly communicate strategic technology whereas turnkey functionalities. Professionally re-engineer magnetic
             markets for highly efficient functionalities. Efficiently fabricate user friendly opportunities for
             backward-compatible experiences. Competently scale team building relationships through real-time solutions.
 
@@ -84,7 +93,7 @@ const App = () => {
 
         <div className="max-w-5xl w-full mx-auto p-8">
           <p className="text-[#6C757D] text-[14px] leading-[25px] font-normal font-[Poppins] mt-4">
-          Quickly monetize synergistic portals via efficient e-commerce. Phosfluorescently reinvent frictionless
+            Quickly monetize synergistic portals via efficient e-commerce. Phosfluorescently reinvent frictionless
             intellectual capital vis-a-vis an expanded array of niches. Efficiently provide access to interactive
             scenarios vis-a-vis bleeding-edge value. Energistically maximize premium meta-services and multifunctional
             collaboration and idea-sharing. Dramatically unleash front-end value after out-of-the-box opportunities.

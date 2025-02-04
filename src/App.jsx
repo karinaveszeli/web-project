@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import LatestArticles from "./components/LatestArticles";
 import image1 from "./assets/images/img1.webp";
 import image2 from "./assets/images/img2.webp";
 import desertImage from "./assets/images/desertImage.webp";
@@ -19,8 +20,7 @@ const App = () => {
             <div className="w-[15px] h-[1px] bg-[#E5E5E5] mx-2"></div>
             <span className="font-bold text-[#212529]">By: Peter Roward</span>
           </div>
-
-
+          
           <blockquote className="text-[#212529] text-[25px] font-bold leading-[40px] my-8">
             The purpose of our lives is to be <br /> happy.
           </blockquote>
@@ -119,13 +119,13 @@ const App = () => {
               className="flex items-center space-x-1 text-gray-600 font-bold text-[8px] hover:bg-gray-100 transition"
             >
               <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4.375 6.8663C4.375 7.21148 4.65482 7.4913 5 7.4913C5.34518 7.4913 5.625 7.21148 5.625 6.8663V2.3927L7.65172 4.41942L8.53561 3.53553L5.00007 0L1.46454 3.53553L2.34842 4.41942L4.375 2.39284V6.8663Z" fill="#495057" />
-              <path d="M0 6.25H1.25V8.75H8.75V6.25H10V8.75C10 9.44035 9.44036 10 8.75 10H1.25C0.559644 10 0 9.44035 0 8.75V6.25Z" fill="#495057" />
-            </svg>
-              
+                <path d="M4.375 6.8663C4.375 7.21148 4.65482 7.4913 5 7.4913C5.34518 7.4913 5.625 7.21148 5.625 6.8663V2.3927L7.65172 4.41942L8.53561 3.53553L5.00007 0L1.46454 3.53553L2.34842 4.41942L4.375 2.39284V6.8663Z" fill="#495057" />
+                <path d="M0 6.25H1.25V8.75H8.75V6.25H10V8.75C10 9.44035 9.44036 10 8.75 10H1.25C0.559644 10 0 9.44035 0 8.75V6.25Z" fill="#495057" />
+              </svg>
+
               <span>SHARE</span>
             </a>
-            
+
 
           </div>
 
@@ -133,6 +133,7 @@ const App = () => {
         </div>
 
       </main>
+      <LatestArticles />
       <Footer />
     </div>
   );

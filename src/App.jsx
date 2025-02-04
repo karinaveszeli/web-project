@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import image1 from "./assets/images/img1.png";
 import image2 from "./assets/images/img2.png";
+import desertImage from "./assets/images/desertImage.png";
 
 
 const App = () => {
@@ -10,7 +11,11 @@ const App = () => {
     <div>
       <Header />
       <main className="p-8 w-[56.666%] mx-auto justify-start">
-        <h1 className="text-2xl font-bold  mb-4">The purpose of our lives is to be happy.</h1>
+
+        <blockquote className=" text-[#212529] text-[25px] font-bold leading-[40px] my-8">
+          The purpose of our lives is to be <br /> happy.
+        </blockquote>
+
 
         <p className="text-[#6C757D] text-[14px] leading-[25px] font-normal font-[Poppins]  ">
           Quickly monetize synergistic portals via efficient e-commerce. Phosfluorescently reinvent frictionless
@@ -38,10 +43,18 @@ const App = () => {
           e-markets with emerging web services.
         </p>
 
-        <h1 className="text-2xl font-bold  mb-4">
+
+        <div className="my-16">
+          <img src={desertImage} alt="Desert Landscape" className="rounded-lg shadow-md object-cover w-full h-auto" />
+        </div>
+
+
+        <blockquote className=" text-[#212529] text-[25px] font-bold leading-[40px] my-8">
           Many of life’s failures are people who did not<br />
-          realize how close they were to success when <br />
-          they gave up.</h1>
+          realize how close they were to success when<br /> they gave up.
+        </blockquote>
+
+
 
         <p className="text-[#6C757D] text-[14px] leading-[25px] font-normal font-[Poppins] mt-4">
           Quickly monetize synergistic portals via efficient e-commerce.

@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import image1 from "./assets/images/img1.webp";
 import image2 from "./assets/images/img2.webp";
 import desertImage from "./assets/images/desertImage.webp";
+import shareIcon from "./assets/images/share.png";
 
 const App = () => {
   return (
@@ -101,6 +102,29 @@ const App = () => {
             leadership skills and 24/7 best practices. Objectively exploit emerging methodologies vis-a-vis functionalized
             ideas.Energistically reconceptualize out-of-the-box innovation vis-a-vis cooperative methods of empowerment.
           </p>
+
+          <div className="flex justify-between items-center mt-6">
+            <div className="flex space-x-2">
+              {["Creative", "Inspiration", "Travel", "Photography"].map((category, index) => (
+                <a
+                  key={index}
+                  href={`/`}
+                  className="px-4 py-1 text-sm border border-[#C4C4C4] rounded-md text-gray-600 hover:bg-gray-200 transition"
+                >
+                  {category}
+                </a>
+              ))}
+            </div>
+            <a
+              href="#"
+              className="flex items-center space-x-1 text-gray-600 font-bold text-[8px] hover:bg-gray-100 transition"
+            >
+              <img src={shareIcon} alt="Share" className="w-[10px] h-[10px] object-contain" />
+              <span>SHARE</span>
+            </a>
+          </div>
+
+
         </div>
 
       </main>

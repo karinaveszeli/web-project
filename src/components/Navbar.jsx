@@ -7,7 +7,7 @@ const NavBar = () => {
     <nav className="absolute top-0 left-0 w-full flex items-center justify-between px-6 md:px-10 py-4 text-white font-poppins z-50">
 
 
-      <h1 className="font-bold text-[30px] leading-[25px] text-white">
+      <h1 className="font-bold text-[24px] sm:text-[26px] md:text-[28px] lg:text-[30px] leading-[25px] text-white">
         VENCE<span className="text-[#c8a876]">.</span>
       </h1>
 
@@ -25,7 +25,7 @@ const NavBar = () => {
         </svg>
       </button>
 
-      {/* Navigációs menü */}
+     
       <div className={`md:flex items-center space-x-6 ${menuOpen ? "block absolute top-[60px] left-0 w-full  text-white text-center py-4" : "hidden md:flex md:relative md:bg-transparent md:py-0 md:text-left"}`}>
         <ul className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6 text-[12px] md:text-[18px] leading-[25px] font-normal text-[#F8F9FA] opacity-70">
           <li><a href="/" className="px-3 py-1 rounded-md hover:bg-[#ffffff22] transition duration-200">Home</a></li>

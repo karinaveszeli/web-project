@@ -47,7 +47,7 @@ const articles = [
 const LatestArticles = () => {
     return (
         <section className="bg-[rgba(94,94,94,0.05)] pt-20 pb-32">
-            <div className="max-w-[2000px] mx-auto px-8">
+            <div className="max-w-full mx-auto px-8">
                 <h2 className="text-3xl font-bold text-gray-800 mb-8">Latest Articles</h2>
 
                 <Swiper
@@ -68,7 +68,7 @@ const LatestArticles = () => {
 
 {articles.map((article) => (
                         <SwiperSlide key={article.id} className="">
-                            <div className="bg-white p-5 shadow flex">
+                            <div className="bg-white p-5 shadow flex gap-3">
                                 <img
                                     src={article.image}
                                     alt={article.title}

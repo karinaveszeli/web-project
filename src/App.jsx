@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div>
       <Header />
-      <main className="max-w-[2000px] mx-auto  pt-20 pb-32 md:px-6">
+      <main className="max-w-[2000px] mx-auto px-4 md:px-6">
         <div className="max-w-5xl w-full mx-auto p-8">
 
           <div className="flex items-center text-[#6C757D] text-sm mb-4">
@@ -125,7 +125,6 @@ const App = () => {
 
               <span>SHARE</span>
             </a>
-
 
           </div>
 

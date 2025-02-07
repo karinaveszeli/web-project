@@ -8,7 +8,7 @@ const Header = () => {
       style={{ backgroundImage: "url('https://res.cloudinary.com/dpp0qvpj9/image/upload/f_auto,q_auto/v1738776212/header_img_bexwix.png')" }}
       id="Header"
     >
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 z-50">
         <NavBar />
       </div>
 

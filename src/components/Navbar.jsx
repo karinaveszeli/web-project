@@ -26,11 +26,9 @@ const NavBar = () => {
       </button>
 
      
-      <div className={`fixed inset-0 bg-black bg-opacity-90 z-50 flex flex-col items-center justify-center transition-all duration-300
-   ${menuOpen ? "visible opacity-100" : "invisible opacity-0 md:flex md:relative md:bg-transparent md:py-0 md:text-left"}`}>
-
-        <ul className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6 text-[12px] md:text-[18px] leading-[25px] font-normal text-[#F8F9FA] opacity-70">
-          <li><a href="/" className="px-3 py-1 rounded-md hover:bg-[#ffffff22] transition duration-200">Home</a></li>
+      <div className={`md:flex items-center space-x-6 ${menuOpen ? "block absolute top-[60px] left-0 w-full bg-black text-white text-center py-4 text-lg" : "hidden md:flex md:relative md:bg-transparent md:py-0 md:text-left"}`}>
+      <ul className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6 text-[12px] md:text-[18px] leading-[25px] font-normal text-[#F8F9FA] opacity-70"><li>
+            <a href="/" className="px-3 py-1 rounded-md hover:bg-[#ffffff22] transition duration-200">Home</a></li>
 
           <li className="relative group">
             <a href="/courses" className="px-3 py-1 flex items-center hover:bg-[#ffffff40] transition duration-200">

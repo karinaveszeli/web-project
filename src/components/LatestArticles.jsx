@@ -43,40 +43,41 @@ const articles = [
     }
 ];
 
-
 const LatestArticles = () => {
     return (
-        <section className="bg-[rgba(94,94,94,0.05)] pt-20 pb-32">
-            <div className="max-w-full mx-auto px-8">
-                <h2 className="text-3xl font-bold text-gray-800 mb-8">Latest Articles</h2>
+        <section className="bg-[#F8F9FA] py-16">
+            <div className="max-w-6xl mx-auto px-4">
+                <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-8">Latest Articles</h2>
 
                 <Swiper
                     modules={[Navigation, Pagination]}
-                    loop = "true"
+                    loop={true}
                     spaceBetween={20}
-                    slidesPerView={1} 
+                    slidesPerView={1}
                     navigation
                     pagination={{ clickable: true }}
                     breakpoints={{
-                        640: { slidesPerView: 2, spaceBetween: 20 }, 
-                        1024: { slidesPerView: 3, spaceBetween: 30 }, 
+                        640: { slidesPerView: 1, spaceBetween: 10 },
+                        768: { slidesPerView: 2, spaceBetween: 20 },
+                        1024: { slidesPerView: 3, spaceBetween: 30 },
                     }}
                     className="relative"
                 >
-
-
-
-{articles.map((article) => (
-                        <SwiperSlide key={article.id} className="">
-                            <div className="bg-white p-5 shadow flex gap-3">
+                    {articles.map((article) => (
+                        <SwiperSlide key={article.id}>
+                            <div className="grid grid-cols-2 gap-4 bg-white p-6 shadow-lg items-center">
+                              
                                 <img
                                     src={article.image}
                                     alt={article.title}
-                                    className="w-52 h-52 object-cover"
+                                    className="w-full h-40 object-cover "
                                 />
-                                <div className="ml-4">
-                                    <p className="text-lg text-gray-500">{article.category.join(" ")}</p>
-                                    <h3 className="text-2xl font-semibold text-gray-800 mt-2">{article.title}</h3>
+                            
+                                <div className="flex flex-col justify-center">
+                                    <p className="text-sm text-gray-500">{article.category.join(", ")}</p>
+                                    <h3 className="text-md sm:text-lg font-semibold text-gray-800 mt-2 leading-tight">
+                                        {article.title}
+                                    </h3>
                                 </div>
                             </div>
                         </SwiperSlide>

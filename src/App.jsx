@@ -8,7 +8,7 @@ import desertImage from "./assets/images/desertImage.webp";
 
 const App = () => {
   return (
-    <div>
+    <div className="font-poppins">
       <Header />
       <main className="max-w-[2000px] mx-auto px-4 md:px-6">
         <div className="max-w-5xl w-full mx-auto p-8">
@@ -25,19 +25,12 @@ const App = () => {
             The purpose of our lives is to be <br /> happy.
           </blockquote>
 
-          <p className="text-[#6C757D] text-[14px] leading-[25px] font-normal font-[Poppins]">
-            Quickly monetize synergistic portals via efficient e-commerce. Phosfluorescently reinvent frictionless
-            intellectual capital vis-a-vis an expanded array of niches. Efficiently provide access to interactive scenarios
-            vis-a-vis bleeding-edge value. Energistically maximize premium meta-services and multifunctional collaboration
-            and idea-sharing. Dramatically unleash front-end value after out-of-the-box opportunities. Energistically streamline magnetic
-            action items after global markets. Collaboratively scale backward-compatible leadership skills and 24/7 best
-            practices. Objectively exploit emerging methodologies vis-a-vis functionalized ideas.
-            Energistically reconceptualize out-of-the-box innovation vis-a-vis cooperative methods of empowerment. Uniquely
-            foster revolutionary value whereas accurate communities.
+          <p className="text-[#6C757D] text-[18px] leading-[25px] font-normal">
+            Quickly monetize synergistic portals via efficient e-commerce. Phosfluorescently reinvent frictionless intellectual capital vis-a-vis an expanded array of niches. Efficiently provide access to interactive scenario vis-a-vis bleeding-edge value. Energistically maximize premium meta-services and multifunctional collaboration and idea-sharing. Dramatically unleash front-end value after out-of-the-box opportunities. Energistically streamline magnetic action items after global markets. Collaboratively scale backward-compatible leadership skills and 24/7 best practices. Objectively exploit emerging methodologies vis-a-vis functionalized ideas. Energistically reconceptualize out-of-the-box innovation vis-a-vis cooperative methods of empowerment. Uniquely foster revolutionary value whereas accurate communities.
 
           </p>
 
-          <p className="text-[#6C757D] text-[14px] leading-[25px] font-normal font-[Poppins] mt-4">
+          <p className="text-[#6C757D] text-[18px] leading-[25px] font-normal mt-4">
             Conveniently engineer robust experiences after performance-based initiatives.Credibly communicate strategic technology whereas turnkey functionalities. Professionally re-engineer magnetic
             markets for highly efficient functionalities. Efficiently fabricate user friendly opportunities for
             backward-compatible experiences. Competently scale team building relationships through real-time solutions.
@@ -45,7 +38,7 @@ const App = () => {
           </p>
 
 
-          <p className="text-[#6C757D] text-[14px] leading-[25px] font-normal font-[Poppins] mt-4">
+          <p className="text-[#6C757D] text-[18px] leading-[25px] font-normal mt-4">
             Interactively productivate cross-platform vortals through tactical results. Interactively underwhelm efficient
             alignments with enabled materials. Rapidiously leverage existing superior technology via fully researched
             e-commerce.
@@ -65,7 +58,7 @@ const App = () => {
             realize how close they were to success when<br /> they gave up.
           </blockquote>
 
-          <p className="text-[#6C757D] text-[14px] leading-[25px] font-normal font-[Poppins] mt-4">
+          <p className="text-[#6C757D] text-[18px] leading-[25px] font-normal mt-4">
             Quickly monetize synergistic portals via efficient e-commerce.
             Phosfluorescently reinvent frictionless intellectual capital vis-a-vis an expanded array of niches.
             Efficiently provide access to interactive scenarios vis-a-vis bleeding-edge value. Energistically maximize
@@ -77,7 +70,7 @@ const App = () => {
             accurate communities.
           </p>
 
-          <p className="text-[#6C757D] text-[14px] leading-[25px] font-normal font-[Poppins] mt-4">
+          <p className="text-[#6C757D] text-[18px] leading-[25px] font-normal mt-4">
             Conveniently engineer robust experiences after performance based initiatives.
             Credibly communicate strategic technology whereas turnkey functionalities. Professionally re-engineer
             magnetic markets for highly efficient functionalities. Efficiently fabricate user friendly opportunities
@@ -92,7 +85,7 @@ const App = () => {
         </div>
 
         <div className="max-w-5xl w-full mx-auto p-8">
-          <p className="text-[#6C757D] text-[14px] leading-[25px] font-normal font-[Poppins] mt-4">
+          <p className="text-[#6C757D] text-[18px] leading-[25px] font-normal mt-4">
             Quickly monetize synergistic portals via efficient e-commerce. Phosfluorescently reinvent frictionless
             intellectual capital vis-a-vis an expanded array of niches. Efficiently provide access to interactive
             scenarios vis-a-vis bleeding-edge value. Energistically maximize premium meta-services and multifunctional

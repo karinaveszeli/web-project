@@ -45,7 +45,7 @@ const articles = [
 
 const LatestArticles = () => {
     return (
-        <section className="bg-[#F8F9FA] py-16">
+        <section className="bg-[rgba(94,94,94,0.05)] py-16">
             <div className="max-w-7xl mx-auto px-4">
                 <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-8">Latest Articles</h2>
 

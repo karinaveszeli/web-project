@@ -27,7 +27,7 @@ const NavBar = () => {
 
      
       <div className={`md:flex items-center space-x-6 ${menuOpen ? "block absolute top-[60px] left-0 w-full bg-black text-white text-center py-4 text-lg" : "hidden md:flex md:relative md:bg-transparent md:py-0 md:text-left"}`}>
-      <ul className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6 text-[20px] md:text-[25px] leading-[25px] font-normal text-[#F8F9FA] opacity-50"><li>
+      <ul className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6 text-[18px] md:text-[20px] leading-[25px] font-normal text-[#F8F9FA] opacity-50"><li>
             <a href="/" className="px-3 py-1 rounded-md hover:bg-[#ffffff22] transition duration-200">Home</a></li>
 
           <li className="relative group">

@@ -4,9 +4,9 @@ import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import article1 from "../assets/images/article1.png";
-import article2 from "../assets/images/article2.png";
-import article3 from "../assets/images/article3.png";
+import article1 from "../assets/images/article1.jfif";
+import article2 from "../assets/images/article2.jfif";
+import article3 from "../assets/images/article3.jfif";
 import article4 from "../assets/images/article4.avif";
 import article5 from "../assets/images/article5.avif";
 
